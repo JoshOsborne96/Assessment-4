@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    
+    <button id = "fortuneButton">Get a fortune</button>
+    
+    <h1>Take a look back at these quotes anytime you need some inspiration!</h1>
+<main>
+
+  
+  <form>
+    <input 
+    type="text"
+    id="quote"
+    placeholder="Favorite inspirational quote?"/>
+    
+    <input 
+    type="'text'"
+    id="author"
+    placeholder="Author"/>
+    
+      <section id="inspoLvl-container">
+        <p>Determine Inspiration Level:</p>
+        <div id="radio-container">
+          <label for="one">
+            <input
+            type="radio"
+            name="inspoLvl"
+            value="1"
+            id="one"/>
+            1
+          </label>
+          <label for="two">
+            <input
+            type="radio"
+            name="inspoLvl"
+            value="2"
+            id="two"/>
+            2
+          </label>
+          <label for="three">
+            <input
+            type="radio"
+            name="inspoLvl"
+            value="3"
+            id="three"/>
+            3
+          </label>
+            <label for="four">
+              <input
+              type="radio"
+              name="inspoLvl"
+              value="4"
+              id="four"/>
+              4
+            </label>
+            <label for="five">
+              <input
+              type="radio"
+              name="inspoLvl"
+              value="5"
+              id="five"/>
+              5
+            </label>
+          </div>
+        </section>
+        
+        
+        
+        <button id="add-quote-button">Add quote</button>
+        
+      </form>
+      
+      <section id="quotes-container"></section>
+      
+    </main>
+      
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="main.js"></script>
+      
+  </body>
+</html>
